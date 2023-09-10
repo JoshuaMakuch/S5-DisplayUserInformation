@@ -12,12 +12,12 @@ Public Class DisplayUserInformationForm
 
     'When the user presses the display button
     Private Sub DisplayButton_Click(sender As Object, e As EventArgs) Handles DisplayButton.Click
-        FinalOutputTextBox.Text = "thing"
+        FinalOutputTextBox.Text = NameTextBox.Text & ", " & AddressTextBox.Text() & ", " & PhoneTextBox.Text() & ", " & BirthdateTextBox.Text
     End Sub
 
     'When the user presses the display but backwards button
     Private Sub DisplayButBackwardsButton_Click(sender As Object, e As EventArgs) Handles DisplayButBackwardsButton.Click
-        FinalOutputTextBox.Text = "other thing"
+        FinalOutputTextBox.Text = BirthdateTextBox.Text & ", " & PhoneTextBox.Text & ", " & AddressTextBox.Text & ", " & NameTextBox.Text
     End Sub
 
     'When the user presses the quit button is closes the form

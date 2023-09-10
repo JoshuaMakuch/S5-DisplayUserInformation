@@ -68,6 +68,7 @@ Partial Class DisplayUserInformationForm
         '
         Me.FinalOutputTextBox.Location = New System.Drawing.Point(12, 277)
         Me.FinalOutputTextBox.Name = "FinalOutputTextBox"
+        Me.FinalOutputTextBox.ReadOnly = True
         Me.FinalOutputTextBox.Size = New System.Drawing.Size(766, 27)
         Me.FinalOutputTextBox.TabIndex = 28
         '
