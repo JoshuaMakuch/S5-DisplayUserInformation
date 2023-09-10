@@ -21,8 +21,8 @@ Public Class DisplayUserInformationForm
     End Sub
 
     'When the user presses the quit button is closes the form
-    Private Sub QuitButton_Click(sender As Object, e As EventArgs)
-
+    Private Sub QuitButton_Click(sender As Object, e As EventArgs) Handles QuitButton.Click
+        Me.Close()
     End Sub
 
 End Class
